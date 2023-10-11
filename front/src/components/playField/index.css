@@ -1,0 +1,144 @@
+.play-field {
+    /* padding: 2%; */
+    padding: 20px;
+    background-color: black;
+    /*background-image: url('../../img/playFieldBackground.jpg');*/
+    display: grid;
+    grid-template-columns: repeat(11, 8%);
+    grid-template-rows: repeat(11, 1fr);
+    justify-content: center;
+    align-content: center;
+    /* grid-gap: 0.5%; */
+    grid-gap: 5px;
+    /* border-radius: 15px; */
+    /* width: 99vw;*/
+    min-height: 100lvh;
+    /* max-width: 1150px; */
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.play-field .card-common:nth-child(1) {
+    background-color: green;
+}
+
+.play-field .card-common:nth-child(12) {
+    order: 2;
+}
+
+.play-field .card-common:nth-child(13) {
+    order: 4;
+}
+
+.play-field .card-common:nth-child(14) {
+    order: 6;
+}
+
+.play-field .card-common:nth-child(15) {
+    order: 8;
+}
+
+.play-field .card-common:nth-child(16) {
+    order: 10;
+}
+
+.play-field .card-common:nth-child(17) {
+    order: 12;
+}
+
+.play-field .card-common:nth-child(18) {
+    order: 14;
+}
+
+.play-field .card-common:nth-child(19) {
+    order: 16;
+}
+
+.play-field .card-common:nth-child(20) {
+    order: 18;
+}
+
+
+
+
+.play-field .card-common:nth-child(40) {
+    order: 1;
+    /* transform: rotate(90deg); */
+}
+
+.play-field .card-common:nth-child(39) {
+    order: 3;
+}
+
+.play-field .card-common:nth-child(38) {
+    order: 5;
+}
+
+.play-field .card-common:nth-child(37) {
+    order: 7;
+}
+
+.play-field .card-common:nth-child(36) {
+    order: 9;
+}
+
+.play-field .card-common:nth-child(35) {
+    order: 11;
+}
+
+.play-field .card-common:nth-child(34) {
+    order: 13;
+}
+
+.play-field .card-common:nth-child(33) {
+    order: 15;
+}
+
+.play-field .card-common:nth-child(32) {
+    order: 17;
+}
+
+.play-field .card-common:nth-child(31) {
+    order: 19;
+}
+
+.play-field .card-common:nth-child(30) {
+    order: 20;
+}
+
+.play-field .card-common:nth-child(29) {
+    order: 21;
+}
+
+.play-field .card-common:nth-child(28) {
+    order: 22;
+}
+
+.play-field .card-common:nth-child(27) {
+    order: 23;
+}
+
+.play-field .card-common:nth-child(26) {
+    order: 24;
+}
+
+.play-field .card-common:nth-child(25) {
+    order: 25;
+}
+
+.play-field .card-common:nth-child(24) {
+    order: 26;
+}
+
+.play-field .card-common:nth-child(23) {
+    order: 27;
+}
+
+.play-field .card-common:nth-child(22) {
+    order: 28;
+}
+
+.play-field .card-common:nth-child(21) {
+    order: 29;
+}

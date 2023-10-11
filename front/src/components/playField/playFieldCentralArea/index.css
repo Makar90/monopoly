@@ -1,0 +1,29 @@
+.inner-area {
+    grid-column: 2/11;
+    grid-row: 2/11;
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*justify-content: center;
+    align-items: flex-end;
+    gap: 50px; */
+    /* padding: 10px 0 10px 0; */
+    padding: 1px;
+
+
+
+    background-image: url('../../../img/playFieldPicture2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px;
+}
+
+/* .inner-area .card-common {
+    width: 30%;
+    height: 30%;
+} */

@@ -1,0 +1,12 @@
+.option {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+}
+
+.option__value {
+    display: block;
+    width: 80px;
+    padding: 0 5px;
+}

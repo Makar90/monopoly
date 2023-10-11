@@ -1,0 +1,54 @@
+.game-process-info {
+    width: 100%;
+    background-color: rgb(128, 128, 128, 0.8);
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.game-process-info--hidden {
+    visibility: hidden;
+}
+
+.game-process-info__game-budget {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid gray;
+    color: goldenrod;
+    padding: 5px;
+}
+
+.game-process-info__players-line {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.game-process-info__player {
+    padding: 5px;
+    background-color: white;
+    border: 4px solid transparent;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    min-width: 10%;
+    /* box-shadow: 10px 5px 5px red; */
+}
+
+.game-process-info__player-name {
+    padding: 5px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.game-process-info__player-budget {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    color: goldenrod;
+}

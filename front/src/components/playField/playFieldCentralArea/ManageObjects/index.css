@@ -1,0 +1,8 @@
+.manage-objects {
+    background-color: white;
+    height: 100%;
+}
+
+.manage-objects--hidden {
+    visibility: hidden;
+}
